@@ -1,0 +1,73 @@
+Login:
+/rcon login 15151515
+
+Popular Commands:
+/rcon quit |> Restarts the Server
+/rcon sv_hostname |> This lets you change the name of the server without restarting the server or even map. EXAMPLE: /rcon sv_hostname ^4My ^2Server
+/rcon g_password |> password protects the entire server. Example /rcon g_password ThePassword
+/rcon sv_maxclients |> Sets the max number of players allowed in the server, /rcon sv_maxclients 16 (Requires Map Restart)
+/rcon scr_hardcore |> /rcon scr_hardcore 1 Enables (Turns On) HardCore mode, /rcon scr_hardcore 0 Disable (Turns Off) Hardcore mode
+/rcon scr_team_teamkillspawndelay |> The amount of seconds a player must wait after causing a teammate death /rcon scr_team_teamkillspawndelay 20
+/rcon scr_teambalance 0 |> Turns off Team Balance. /rcon scr_teambalance 1 |> Turns on Team Balance
+/rcon scr_game_allowkillcam 0 |> Turns off the KillCam, /rcon scr_game_allowkillcam 1 turns it on
+/rcon status |> Displays Information for All Gamers in the server
+/rcon clientkick (gamer id) |> Kicks a Gamer from the server by their ID. You can use the “/rcon status” command to get the gamers ID number that’s on the left
+/rcon banclient |> bans a gamer from the server by ID.
+/rcon banuser |> bans a gamer from the server by name
+
+Friendly Fire:
+/rcon scr_team_fftype 0 Turn Friendly Fire Off
+/rcon scr_team_fftype 1 Turn Friendly Fire On
+/rcon scr_team_fftype 2 Turn Friendly Fire On Reflect. Attack teammate then the damage is reflected (giving back) to you
+/rcon scr_team_fftype 3 Turn Friendly Fire On Shared. Same as Above except the team attack damage hurts both of you
+
+
+Map Change/Loads:
+/rcon map mp_backlot
+/rcon map mp_bloc
+/rcon map mp_bog
+/rcon map mp_broadcast
+/rcon map mp_carentan (ChinaTown)
+/rcon map mp_cargoship (Wet Work)
+/rcon map mp_citystreets (District)
+/rcon map mp_convoy (Ambush)
+/rcon map mp_countdown
+/rcon map mp_crash
+/rcon map mp_crossfire
+/rcon map mp_farm (DownPour)
+/rcon map mp_overgrown
+/rcon map mp_pipeline
+/rcon map mp_shipment
+/rcon map mp_showdown
+/rcon map mp_strike
+/rcon map mp_showdown
+/rcon map mp_killhouse
+/rcon map mp_crash_snow (Winter Crash)
+
+<gametype> is one of:
+
+\rcon g_gametype war
+
+"dm" - free for all deathmatch
+"dom" - domination
+"koth" - headquarters
+"sab" - sabotage
+"sd" - search & destroy
+"war" - team deathmatch
+
+Map Loads:
+/rcon fast_restart |> Restarts the current gameplay without restarting the entire map
+/rcon map_restart |> Restarts the entire map
+/rcon map_rotate |> Rotates to the next map that is set to load
+
+Bind Commands:
+The button “F5? will be used for the bind examples. Usually most buttons on the keyboard can be used instead of just F5
+Color Examples:
+/bind F5 say ^0Hello All
+/bind F5 say ^1Hello All
+/bind F5 say ^2Hello All
+/bind F5 say ^3 Hello All
+/bind F5 say ^4Hello All
+/bind F5 say ^5Hello All
+/bind F5 say ^6Hello All
+/bind F5 say ^7Hello All (White)
