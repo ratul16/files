@@ -1,0 +1,19 @@
+{
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "team.showWelcomeMessage": false,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.fontSize": 14,
+    "explorer.confirmDragAndDrop": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "materialTheme.fixIconsRunning": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+}
