@@ -1,0 +1,30 @@
+org 100h
+
+LEA SI, arr
+MOV AH,1
+INT 21h
+SUB AL, 30h
+MOV BL, AL
+
+MOV AH,2
+MOV DL, 0AH
+INT 21H
+MOV DL, 0DH
+INT 21H
+
+MOV BH, 0H 
+ADD SI, BX
+MOV BL, [SI]
+MOV BH, 0H
+LEA SI, arr
+ADD SI, BX
+MOV DL, [SI]
+ADD DL, 30H
+INT 21H
+
+
+ret
+
+
+
+arr db 0,1,1,2,3,5,8,13,21,34,45,79,144,233
